@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import MainHeader from "./components/MainHeader";
 import PostsList from "./components/PostsList";
+import MainHeader from "./components/MainHeader";
 
 function App() {
   const [modalIsVisible, setModalIsVisible] = useState(false);
@@ -9,6 +9,7 @@ function App() {
   function showModalHandler() {
     setModalIsVisible(true);
   }
+
   function hideModalHandler() {
     setModalIsVisible(false);
   }
